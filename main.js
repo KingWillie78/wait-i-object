@@ -2,6 +2,7 @@
 // │ Your code here! │
 // └─────────────────┘
 
+
 function createUser(Willie, Williams) {
   user = {
       firstName: Willie,
@@ -48,8 +49,7 @@ function addSong (playlist, song) {
       return playlist
   }
 
-
-  function updateReportCard(reportCard, newGrade) {
+function updateReportCard(reportCard, newGrade) {
       reportCard.grades.push(newGrade);
       
       if (newGrade < reportCard.lowestGrade){
